@@ -3,7 +3,7 @@
 
 Este programa en Python está diseñado para buscar y organizar los accesos directos de Internet (archivos `.url`) que se encuentran en la misma carpeta que el script. 
 
-El script en Python busca archivos de acceso directo (`.url`) en la carpeta del script, extrae sus nombres y URLs, y los guarda en un archivo de texto. Ordena los accesos directos por fecha de creación y escribe los resultados en (`accesos_directos.txt`).
+El script en Python busca archivos de acceso directo (`.url`) en la misma carpeta donde está el script. Extrae sus nombres y URLs, ordena los accesos directos por fecha de creación y escribe los resultados en el archivo de texto: (`accesos_directos.txt`). 
 
 1. **Importa los módulos necesarios**: `os` para interactuar con el sistema operativo y `glob` para buscar archivos que coincidan con un patrón específico.
 2. **Define la ruta de la carpeta actual** donde se ejecuta el script y la extensión de los archivos de acceso directo que busca (`.url`).
